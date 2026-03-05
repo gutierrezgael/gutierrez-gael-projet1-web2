@@ -6,27 +6,55 @@
 
 ## Composants réutilisables
 
-Barre de navigation: **navbar**
+Boutons:
+**button**
+**button--learn-more**
+**button--order**
+**button--cancel**
 
-Section hero: **hero**
+Barre de navigation: 
+**navbar**
+**navbar__title**
+**navbar__logo**
 
-Carte (à propos) **card--about**
+Section hero: 
+**hero**
 
-Carte (produits): **card--products**
 
-Carte (heures d'ouvertures): **card--hours**
+Carte (à propos) 
+**card--about**
 
-Article de blogue (témoignages): **testimonals**
 
-Liste de médias (équipes): **media-object**
+Carte (produits): 
+**card--products**
 
-Grille de prix: **pricing-cards**
 
-Carte (Section nous joindre): **card--contact**
+Carte (heures d'ouvertures): 
+**card--hours**
 
-Formulaire: **form**
 
-Menu de pied de page: **footer**
+Article de blogue (témoignages): 
+**testimonals**
+
+
+Liste de médias (équipes): 
+**media-object**
+
+
+Grille de prix: 
+**pricing-cards**
+
+
+Carte (Section nous joindre): 
+**card--contact**
+
+
+Formulaire: 
+**form**
+
+
+Menu de pied de page: 
+**footer**
 
 
 
