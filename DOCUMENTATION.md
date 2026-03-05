@@ -7,9 +7,13 @@
 ## Composants réutilisables
 
 Boutons:
+
 **button**
+
 **button--learn-more**
+
 **button--order**
+
 **button--cancel**
 
 Barre de navigation: 
