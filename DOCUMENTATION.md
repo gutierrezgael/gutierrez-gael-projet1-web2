@@ -20,6 +20,10 @@ Carte:
 
 **card**
 
+**card__title**
+
+**card__subtitle**
+
 Barre de navigation: 
 
 **navbar**
@@ -41,17 +45,31 @@ Section hero:
 Carte (à propos):
 
 **card--about**
+
 **card--about__title**
-**card--about__section**
+
+**card--about__subtitle**
+
+**card--about__right-section**
+
+**card--about__left-section**
+
+**card--about__bottom-section**
 
 Carte (produits): 
 
 **card--products**
+
 **card--products__left-product**
+
 **card--products__middle-product**
+
 **card--products__right-product**
+
 **card--products__badge**
+
 **card--products__name**
+
 **card--products__description**
 
 Carte (heures d'ouvertures): 
@@ -63,29 +81,70 @@ Article de blogue (témoignages):
 
 **testimonals**
 
+**testimonials__title**
+
+**testimonials__avatar**
+
+**testimonials__name**
+
+**testimonials__comment**
 
 Liste de médias (équipes): 
 
 **media-object**
 
+**media-object__title**
+
+**media-object__subtitle**
+
+**media-object__icon**
+
+**media-object__avatar**
+
+**media-object__name**
+
+**media-object__description**
 
 Grille de prix: 
 
-**pricing-cards**
+**card--pricing**
+
+**card--pricing__section**
+
+**card--pricing__name**
+
+**card--pricing__price**
+
+**card--pricing__description**
 
 
 Carte (Section nous joindre): 
 
 **card--contact**
 
+**card__subtitle**
+
+**card--contact__map**
+
 
 Formulaire: 
 
 **form**
 
+**form__title**
+
+**form__input**
 
 Menu de pied de page: 
 
 **footer**
+
+**footer__section__title**
+
+**footer__section**
+
+**footer__map__title**
+
+**footer__map**
 
 ## Système de tokens (variables) à utiliser
