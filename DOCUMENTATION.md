@@ -6,27 +6,27 @@
 
 ## Composants réutilisables
 
-Barre de navigation: *navbar*
+Barre de navigation: **navbar**
 
-Section hero: hero
+Section hero: **hero**
 
-Carte (à propos) card--about
+Carte (à propos) **card--about**
 
-Carte (produits): card--products
+Carte (produits): **card--products**
 
-Carte (heures d'ouvertures): card--hours
+Carte (heures d'ouvertures): **card--hours**
 
-Article de blogue (témoignages): testimonals
+Article de blogue (témoignages): **testimonals**
 
-Liste de médias (équipes): media-object
+Liste de médias (équipes): **media-object**
 
-Grille de prix: pricing-cards
+Grille de prix: **pricing-cards**
 
-Carte (Section nous joindre): card--contact
+Carte (Section nous joindre): **card--contact**
 
-Formulaire: form
+Formulaire: **form**
 
-Menu de pied de page: footer
+Menu de pied de page: **footer**
 
 
 
