@@ -6,7 +6,7 @@
 
 ## Composants réutilisables et nomenclature des classes
 
-Boutons:
+### Boutons:
 
 **button**
 
@@ -16,7 +16,7 @@ Boutons:
 
 **button--cancel**
 
-Carte:
+### Carte:
 
 **card**
 
@@ -24,7 +24,7 @@ Carte:
 
 **card__subtitle**
 
-Barre de navigation: 
+### Barre de navigation: 
 
 **navbar**
 
@@ -32,7 +32,7 @@ Barre de navigation:
 
 **navbar__logo**
 
-Section hero: 
+### Section hero: 
 
 **hero**
 
@@ -42,7 +42,7 @@ Section hero:
 
 **hero__image**
 
-Carte (à propos):
+### Carte (à propos):
 
 **card--about**
 
@@ -56,7 +56,7 @@ Carte (à propos):
 
 **card--about__bottom-section**
 
-Carte (produits): 
+### Carte (produits): 
 
 **card--products**
 
@@ -72,12 +72,16 @@ Carte (produits):
 
 **card--products__description**
 
-Carte (heures d'ouvertures): 
+### Carte (heures d'ouvertures): 
 
 **card--hours**
+**card--hours__section**
+**card--hours__icon**
+**card--hours__day**
+**card--hours__hour**
 
 
-Article de blogue (témoignages): 
+### Article de blogue (témoignages): 
 
 **testimonals**
 
@@ -89,7 +93,7 @@ Article de blogue (témoignages):
 
 **testimonials__comment**
 
-Liste de médias (équipes): 
+### Liste de médias (équipes): 
 
 **media-object**
 
@@ -105,7 +109,7 @@ Liste de médias (équipes):
 
 **media-object__description**
 
-Grille de prix: 
+### Grille de prix: 
 
 **card--pricing**
 
@@ -118,7 +122,7 @@ Grille de prix:
 **card--pricing__description**
 
 
-Carte (Section nous joindre): 
+### Carte (Section nous joindre): 
 
 **card--contact**
 
@@ -127,7 +131,7 @@ Carte (Section nous joindre):
 **card--contact__map**
 
 
-Formulaire: 
+### Formulaire: 
 
 **form**
 
@@ -135,7 +139,7 @@ Formulaire:
 
 **form__input**
 
-Menu de pied de page: 
+### Menu de pied de page: 
 
 **footer**
 
