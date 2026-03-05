@@ -6,7 +6,7 @@
 
 ## Composants réutilisables
 
-Barre de navigation: navbar
+Barre de navigation: *navbar*
 
 Section hero: hero
 
