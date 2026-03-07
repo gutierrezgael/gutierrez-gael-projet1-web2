@@ -5,7 +5,7 @@
 Cette architecture HTML est simplifiée, mais en génral ce sera la structure que je vais suivre,
 <body>
 
-  <div class = navbar>
+"  <div class = navbar>
     (code navbar)
   </div>
 
@@ -49,7 +49,7 @@ Cette architecture HTML est simplifiée, mais en génral ce sera la structure qu
     (code footer)  
   </footer>
   
-</body>
+</body> "
 
 ## Composants réutilisables et nomenclature des classes
 
