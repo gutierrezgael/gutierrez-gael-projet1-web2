@@ -2,7 +2,54 @@
 
 ## Architecture HTML
 
+Cette architecture HTML est simplifiée, mais en génral ce sera la structure que je vais suivre,
+<body>
 
+  <div class = navbar>
+    (code navbar)
+  </div>
+
+  <div class = hero>
+    (code hero)
+  </div>
+
+  <div class = card--about>
+    (code card--about)
+  </div>
+
+  <div class = card--products>
+    (code card--products)  
+  </div>
+  
+  <div class = card--hours>
+    (code card--hours)  
+  </div>
+
+  <div class = testimonials>
+    (code testimonials)  
+  </div>
+
+  <div class = media-object>
+    (code media-object)  
+  </div>
+
+  <div class = card--pricing>
+    (code card--pricing)  
+  </div>
+
+  <div class = card--contact>
+    (code card--contact)  
+  </div>
+  
+  <form>
+    (code form)  
+  </form>
+
+  <footer>
+    (code footer)  
+  </footer>
+  
+</body>
 
 ## Composants réutilisables et nomenclature des classes
 
@@ -83,7 +130,7 @@
 
 ### Article de blogue (témoignages): 
 
-**testimonals**
+**testimonials**
 
 **testimonials__title**
 
@@ -126,7 +173,7 @@
 
 **card--contact**
 
-**card__subtitle**
+**card--contact__subtitle**
 
 **card--contact__map**
 
