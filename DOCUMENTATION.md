@@ -6,49 +6,95 @@ Cette architecture HTML est simplifiée, mais en génral ce sera la structure qu
 
 body
 
-  div class = navbar
-    (code navbar)
-  /div
+      
+      
+        div class = navbar
+        
+          (code navbar)
+          
+        /div
+      
+      
+      
+        div class = hero
+        
+          (code hero)
+          
+        /div
+      
+      
+      
+        div class = card--about
+        
+          (code card--about)
+          
+        /div
+      
+      
+      
+        div class = card--products
+        
+          (code card--products)  
+          
+        /div
+      
+      
+        
+        div class = card--hours
+      
+          (code card--hours)  
+          
+        /div
+      
+        
+      
+        div class = testimonials
+        
+          (code testimonials)  
+          
+        /div
+      
+      
+      
+        div class = media-object
+        
+          (code media-object)  
+          
+        /div
 
-  div class = hero
-    (code hero)
-  /div
 
-  div class = card--about
-    (code card--about)
-  /div
 
-  div class = card--products
-    (code card--products)  
-  /div
-  
-  div class = card--hours
-    (code card--hours)  
-  /div
+        div class = card--pricing
+        
+          (code card--pricing)  
+          
+        /div
 
-  div class = testimonials
-    (code testimonials)  
-  /div
 
-  div class = media-object
-    (code media-object)  
-  /div
+      
+        div class = card--contact
+        
+          (code card--contact)  
+          
+        /div
+      
 
-  div class = card--pricing
-    (code card--pricing)  
-  /div
+        
+        form
+        
+          (code form)  
+          
+        /form
 
-  div class = card--contact
-    (code card--contact)  
-  /div
-  
-  form
-    (code form)  
-  /form
+      
+      
+        footer
+        
+          (code footer)  
+          
+        /footer
 
-  footer
-    (code footer)  
-  /footer
+
   
 /body
 
