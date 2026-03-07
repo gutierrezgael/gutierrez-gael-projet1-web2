@@ -3,53 +3,54 @@
 ## Architecture HTML
 
 Cette architecture HTML est simplifiée, mais en génral ce sera la structure que je vais suivre,
-<body>
 
-"  <div class = navbar>
+body
+
+  div class = navbar
     (code navbar)
-  </div>
+  /div
 
-  <div class = hero>
+  div class = hero
     (code hero)
-  </div>
+  /div
 
-  <div class = card--about>
+  div class = card--about
     (code card--about)
-  </div>
+  /div
 
-  <div class = card--products>
+  div class = card--products
     (code card--products)  
-  </div>
+  /div
   
-  <div class = card--hours>
+  div class = card--hours
     (code card--hours)  
-  </div>
+  /div
 
-  <div class = testimonials>
+  div class = testimonials
     (code testimonials)  
-  </div>
+  /div
 
-  <div class = media-object>
+  div class = media-object
     (code media-object)  
-  </div>
+  /div
 
-  <div class = card--pricing>
+  div class = card--pricing
     (code card--pricing)  
-  </div>
+  /div
 
-  <div class = card--contact>
+  div class = card--contact
     (code card--contact)  
-  </div>
+  /div
   
-  <form>
+  form
     (code form)  
-  </form>
+  /form
 
-  <footer>
+  footer
     (code footer)  
-  </footer>
+  /footer
   
-</body> "
+/body
 
 ## Composants réutilisables et nomenclature des classes
 
