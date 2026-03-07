@@ -4,7 +4,7 @@
 
 Cette architecture HTML est simplifiée, mais en génral ce sera la structure que je vais suivre,
 
-body
+      body
 
       
       
@@ -96,7 +96,7 @@ body
 
 
   
-/body
+      /body
 
 ## Composants réutilisables et nomenclature des classes
 
