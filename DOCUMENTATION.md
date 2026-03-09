@@ -2,7 +2,7 @@
 
 ## Architecture HTML
 
-Cette architecture HTML est simplifiée, mais en génral ce sera la structure que je vais suivre,
+Cette architecture HTML est simplifiée, mais en général ce sera la structure que je vais suivre,
 
       body
 
