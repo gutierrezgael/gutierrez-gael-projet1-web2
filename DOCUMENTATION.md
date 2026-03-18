@@ -110,6 +110,7 @@ Cette architecture HTML est simplifiée, mais en général ce sera la structure 
 
 **button--cancel**
 
+
 ### Carte:
 
 **card**
@@ -132,9 +133,15 @@ Cette architecture HTML est simplifiée, mais en général ce sera la structure 
 
 **hero__title**
 
+**hero__title__color**
+
 **hero__subtitle**
 
 **hero__image**
+
+**hero__button__right**
+
+**hero__button__left**
 
 ### Carte (à propos):
 
