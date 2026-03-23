@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thé Bulles</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img id="logo" src="./assets/svg/logo.svg" alt="Le logo de Thé Bulles, trois petites bulles.">
+        <h1 class="navbar__title">Thé Bulles</h1>
+        <ul class="navbar__items">
+            <li><a class="navbar__link" href="#">Accueil</a></li>
+            <li><a class="navbar__link" href="#">À propos</a></li>
+            <li><a class="navbar__link" href="#">Nos services</a></li>
+            <li><a class="navbar__link" href="#">Activités</a></li>
+            <li><a class="navbar__link" href="#">Témoignages</a></li>
+            <li><a class="navbar__link" href="#">Nous joindre</a></li>
+            <button class="button--order">Commander</button>
+        </ul>
+
+    </nav>
+
+
+
+    <div class="hero">
+        <div class="hero__container">
+
+            <h1 class="hero__title">Chez &nbsp;<span class="hero__title--color">Thé Bulles</span></h1>
+
+            <p class="hero__subtitle">Découvrez notre sélection de thés maison exquis.</p>
+
+            <div class="hero__buttons">
+                <!-- div autour de tes 2 boutons = display:flex -->
+                <button class="hero__button--left">En savoir plus</button>
+
+                <button class="hero__button--right">Commander maintenant</button>
+            </div>
+        </div>
+        <div class="hero__image">
+            <img id="image__papercup" src="./assets/img/tea-paper-cup.png"
+                alt="Un verre de papier, contenant notre thé délicieux.">
+        </div>
+    </div>
+
+
+
+    <div class="about__card">
+
+        <div class="text__container">
+            <h2 class="about__title">À propos</h2>
+
+            <p class="white__subtitle">Nous sommes passionnés par le thé et souhaitons partager notre amour avec vous!
+            </p>
+        </div>
+
+        <div class="about__list">
+            <div class="about__toprow">
+
+                <div class="about__item">
+
+                    <img class="about__image" src="./assets/svg/icon_history.svg" alt="Une icône de parchemin.">
+
+                    <div class="about__textbox">
+
+                        <h1 class="item__title">Notre histoire</h1>
+
+                        <h2 class="item__subtitle">Chez Thé Bulle, chaque tasse de thé est préparée avec soin.</h2>
+
+                        <p class="item__credit"><img src="./assets/img/avatar_template.png"
+                                alt="Un rond qui est destiné à être une icone d'avatar.">L'équipe Thé Bulle</p>
+                    </div>
+
+                </div>
+
+                <div class="about__item">
+
+                    <img class="about__image" src="./assets/svg/icon_tea.svg" alt="Une icône de thé.">
+
+                    <div class="about__textbox">
+
+                        <h1 class="item__title">Nos thés tant appréciés</h1>
+
+                        <h2 class="item__subtitle">Recettes est concoctées avec tout notre coeur.</h2>
+
+                        <p class="item__credit"> <img src="./assets/img/avatar_template.png"
+                                alt="Un rond qui est destiné à être une icone d'avatar.">L'équipe Thé Bulle</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="about__bottomrow">
+
+                <div class="about__item">
+
+                    <img class="about__image" src="./assets/svg/icon_spirituality.svg" alt="Une icone de méditation.">
+
+                    <div class="about__textbox">
+
+
+                        <h1 class="item__title">Citation importante</h1>
+
+                        <h2 class="item__subtitle">"Le thé a une magie qui unit l'esprit et le cœur."</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="white__card">
+
+        <div class="product__container">
+
+            <h1 class="card__title">Nos Produits</h1>
+
+        </div>
+
+        <div class="card__list">
+
+            <div class="product__row">
+
+                <div class="product__showcase">
+
+                    <div class="product__imagecontainer">
+                        <span class="product__badge">À essayer</span>
+                        <div class="product__image">Bubble tea au lait</div>
+
+                    </div>
+
+                    <div class="product__text">
+                        <h2 class="product__name">Bubble Tea au Lait</h2>
+
+                        <h1 class="product__description">Délicieux, crémeux et mémorable.</h1>
+                    </div>
+
+                </div>
+
+                <div class="product__showcasespecial">
+                    <div class="product__imagecontainer">
+                        <span class="product__badge--special">Populaire</span>
+                        <div class="product__image">Thé glacé</div>
+                    </div>
+
+                    <div class="product__text">
+                        <h2 class="product__name">Thé glacé</h2>
+
+                        <h1 class="product__description">Rafraîchissant pour les journées chaudes.</h1>
+                    </div>
+
+                </div>
+
+
+                <div class="product__showcase">
+                    <div class="product__imagecontainer">
+                        <span class="product__badge">Fait maison</span>
+                        <div class="product__image">Thé glacé aux fruits</div>
+                    </div>
+                    <div class="product__text">
+                        <h2 class="product__name">Thé glacé aux fruits</h2>
+
+                        <h1 class="product__description">Une explosion de saveurs en bouche.</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="grey__card">
+
+        <div class="text__container">
+            <h1 class="card__title">Heures d'ouvertures</h1>
+
+            <h2 class="item__subtitle">Venez nous rendre visite !</h2>
+        </div>
+
+        <div class="card__list">
+
+            <div class="list__row">
+
+                <div class="hours__item">
+
+                    <div class="hours__icon">
+                        <h1 class="hours__clock">🕔</h1>
+                    </div>
+
+                    <div class="hours__day">
+                        <h3>Lundi - Vendredi</h3>
+
+                    </div>
+
+                    <div class="hours__hour">
+                        <h3>10h - 22h</h3>
+                    </div>
+
+                </div>
+
+                <div class="hours__item">
+
+                    <div class="hours__icon">
+                        <h1 class="hours__clock">🕔</h1>
+                    </div>
+
+                    <div class="hours__day">
+                        <h3>Samedi</h3>
+                    </div>
+
+                    <div class="hours__hour">
+                        <h3>11h - 23h</h3>
+                    </div>
+
+                </div>
+
+                <div class="hours__item">
+
+                    <div class="hours__icon">
+                        <h1 class="hours__clock">🕔</h1>
+                    </div>
+
+                    <div class="hours__day">
+                        <h3>Dimanche</h3>
+                    </div>
+
+                    <div class="hours__hour">
+                        <h3>10h - 20h</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimonials">
+
+        <div class="testimonials__textbox">
+
+            <h1 class="card__title">Témoignage</h1>
+
+        </div>
+
+        <div class="testimonials__list">
+
+            <div class="testimonials__row">
+
+                <div class="testimonials__card">
+
+                    <div class="testimonials__user">
+
+                        <img class="testimonials__icon" src="./assets/svg/icon_avatar.svg" alt="Une icone d'avatar.">
+
+                        <h1 class="item__credit">Sophie</h1>
+
+                    </div>
+
+                    <p class="testimonials__comment">Meilleur bubble tea que j'aie jamais goûté !</p>
+
+                </div>
+
+                <div class="testimonials__card">
+
+                    <div class="testimonials__user">
+
+                        <img class="testimonials__icon" src="./assets/svg/icon_avatar.svg" alt="Une icone d'avatar.">
+
+                        <h1 class="item__credit">Jean</h1>
+
+                    </div>
+
+                    <p class="testimonials__comment">Un endroit agréable pour se détendre.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="mediaobject">
+
+        <div class="mediaobject__join">
+
+            <img class="mediaobject__avatar" src="./assets/svg/icon_team.svg"
+                alt="Une icone de deux avatars, qui représentent notre équipe.">
+
+            <div class="mediaobject__textbox">
+
+                <h1 class="accent__subtitle">Notre super équipe</h1>
+
+                <h2 class="white__subtitle">Rencontrez les passionnés derrière Thé Bulle.</h2>
+
+            </div>
+
+        </div>
+
+        <button class="button--join">Rejoindre notre équipe</button>
+
+
+    </div>
+
+
+    <img class="separator" src="./assets/svg/line.svg" alt="Une ligne séparatrice.">
+
+    <div class="mediateam">
+
+        <div class="list">
+            
+            <div class="list__row">
+
+                <div class="mediateam__item">
+
+                    <img class="mediateam__avatar" src="./assets/svg/icon_team_avatar.svg">
+
+                    <h1 class="mediateam__name">Alice - Barista</h1>
+                    <h2 class="mediateam__description">Expert en Bubble Tea</h2>
+
+                </div>
+
+                <div class="mediateam__item">
+
+                    <img class="mediateam__avatar" src="./assets/svg/icon_team_avatar.svg">
+
+                    <h1 class="mediateam__name">Max - Propriétaire</h1>
+                    <h2 class="mediateam__description">Amateur de thé</h2>
+
+                </div>
+
+                <div class="mediateam__item">
+
+                    <img class="mediateam__avatar" src="./assets/svg/icon_team_avatar.svg">
+
+                    <h1 class="mediateam__name">Lucie - Gestion</h1>
+                    <h2 class="mediateam__description">Votre contact privilégié</h2>
+
+                </div>
+
+
+                <div class="mediateam__item">
+
+                    <img class="mediateam__avatar" src="./assets/svg/icon_team_avatar.svg">
+
+                    <h1 class="mediateam__name">Thomas - Barista</h1>
+                    <h2 class="mediateam__description">Créateur de recettes</h2>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="pricing">
+
+        <div class="text__container">
+            <h1 class="card__title">Nos prix</h1>
+
+            <h2 class="item__subtitle">Choisissez votre offre.</h2>
+        </div>
+
+        <div class="list">
+
+            <div class="pricing__row">
+
+                <div class="pricing__item">
+
+                    <h2 class="pricing__size">Petite Tasse</h2>
+
+                    <h1 class="pricing__price">3$</h1>
+
+                    <h2 class="pricing__name">Thé classique</h2>
+
+                </div>
+
+                <div class="pricing__item">
+
+                    <h2 class="pricing__size">Moyenne Tasse</h2>
+
+                    <h1 class="pricing__price">5$</h1>
+
+                    <h2 class="pricing__name">Populaire</h2>
+
+                </div>
+
+                <div class="pricing__item">
+
+                    <h2 class="pricing__size">Grande Tasse</h2>
+
+                    <h1 class="pricing__price">6$</h1>
+
+                    <h2 class="pricing__name">Meilleur choix</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="contact">
+
+        <div class="contact__textbox">
+
+            <h1 class="contact__title">Nous joindre</h1>
+
+        </div>
+
+        <div class="contact__container">
+
+            <div class="contact__adress">
+                <h1 class="accent__subtitle">Notre adresse</h1>
+                <p class="contact__text">4444 rue des Bulles</p>
+                <p class="contact__text">Montréal, Qc, Canada</p>
+                <p class="contact__text">H5H W4W</p>
+            </div>
+
+            <img id="contact__map" src="./assets/img/google-maps.png"
+                alt="Une carte qui montre une vue de notre adresse à Montréal.">
+
+        </div>
+
+    </div>
+
+    <img class="separator" src="./assets/svg/line_dark.svg" alt="Une ligne séparatrice.">
+
+
+
+    <form class="contact">
+
+        <h1 class="contact__secondarytitle">Nous contacter</h1>
+
+        <div class="contact__row">
+
+            <div class="contact__prompt">
+
+                <h2 class="item__subtitle">Votre Nom</h2>
+                <input class="contact__input" type="text" placeholder="Entrez votre nom">
+            </div>
+
+            <div class="contact__prompt">
+                <h2 class="item__subtitle">Votre Email</h2>
+                <input class="contact__input" type="text" placeholder="Entrez votre email">
+            </div>
+
+            <div class="contact__prompt">
+                <h2 class="item__subtitle">Votre Message</h2>
+                <input class="contact__input" type="text" placeholder="Écrivez votre message">
+            </div>
+
+
+        </div>
+
+        <div class="contact__buttonbox">
+
+            <button class="button--cancel">Annuler</button>
+
+            <button class="button--send">Envoyer</button>
+
+        </div>
+    </form>
+
+
+    <footer>
+
+        <div class="footer__textbox">
+
+            <div class="footer__column">
+
+                <h2>Liens rapides:</h2>
+
+                <p>Accueil, Services, Contact</p>
+
+            </div>
+
+            <p>|</p>
+
+            <div class="footer__column">
+
+                <h2>À propos de nous:</h2>
+
+                <p>Thé Bulle, local de qualité.</p>
+
+            </div>
+
+            <p>|</p>
+
+            <div class="footer__column">
+
+                <h2>Suivez-nous:</h2>
+
+                <p>[x] [f] [t] [i]</p>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="footer__findus">
+
+            <h1 class="footer__title">Où nous trouver?</h1>
+
+
+            <img class="footer__map" src="./assets/img/google-maps-footer.png"
+                alt="Une carte qui montre une vue de notre adresse à Montréal.">
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
