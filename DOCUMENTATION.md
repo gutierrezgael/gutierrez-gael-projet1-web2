@@ -252,4 +252,36 @@ Cette architecture HTML est simplifiée, mais en général ce sera la structure 
 
 **footer__map**
 
-## Système de tokens (variables) à utiliser
+## Système de tokens (variables) à utiliser<
+
+  --color-primary: #2a9d8f;
+  --color-secondary: #e9c46a;
+  --color-accent: #f4a261;
+  --color-bg-dark: #264653;
+  --color-bg: #ffffff;
+  --color-bg-grey: #ebeff0;
+  --color-text: #1a2e1a;
+  --color-text-secondary: #ffffff;
+
+  /* Espacements */
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 46px;
+  --space-3xl: 60px;
+
+  /* Typographie */
+  --font-size-sm: 0.8rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.2rem;
+  --font-size-xl: 1.6rem;
+  --font-size-2xl: 2rem;
+
+  /* Bordures */
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
