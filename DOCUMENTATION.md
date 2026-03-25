@@ -285,3 +285,8 @@ Cette architecture HTML est simplifiée, mais en général ce sera la structure 
   --radius-md: 8px;
   --radius-lg: 10px;
   --radius-full: 9999px;
+
+  # Difficultés rencontreés
+-Manque de temps
+-Manque d'expérience
+-Comprehension des instructions
